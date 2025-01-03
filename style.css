@@ -1,0 +1,49 @@
+div.child {
+    display: flex;
+    align-items: center;
+}
+
+img.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.profile-description {
+    margin-left: 15px;
+}
+
+div.button {
+    margin-left: 150px;
+}
+
+p.name {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+p.nickname {
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 0px;
+}
+
+p.popularity {
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(65, 65, 65);
+}
+
+button.follow {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
